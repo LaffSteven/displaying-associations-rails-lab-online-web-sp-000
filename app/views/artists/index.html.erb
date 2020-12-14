@@ -1,0 +1,11 @@
+<h1>Artists Index</h1>
+
+<ul>
+
+  <%= @artist.each do |artist| %>
+    <li>
+      <%= link_to artist.name, artist %>
+    </li>
+  <% end %>
+
+</ul>
